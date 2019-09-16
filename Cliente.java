@@ -1,6 +1,6 @@
 public class Cliente(){
     public static void main(String[] args){
-        Cono c1 = new Cono();
+        Cono c1 = new Cono(5,10);
         Esfera e1 = new Esfera(5);
         Prisma p1 = new Prisma(3,2,8);
         
