@@ -14,7 +14,10 @@ public class Esfera{
     public String toString(){
         return "El radio es: "+radio;
     }
-    public setRadio(int radio){
+    public void setRadio(int radio){
         this.radio=radio;
+    }
+    public double getRadio(){
+    	return radio;
     }
 }
